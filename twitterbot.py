@@ -13,7 +13,7 @@ def tweet_maker(text_model):
 		tweet_maker(text_model)
 	else:
 		print content	# Comment this out and uncomment below to send actual tweets
-# 		send_tweet(content) # Run it again if there were numbers
+# 		send_tweet(content) # Send the content to be tweeted
 				
 def send_tweet(content):
 	CONSUMER_KEY = '' # Fill in with your details from twitter
